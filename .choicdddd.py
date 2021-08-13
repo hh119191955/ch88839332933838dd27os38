@@ -2,11 +2,11 @@ import os
 import sys
 import wget
 try:
-	os.remove("choicdddd.py")
+	os.remove(".choicdddd.py")
 except:
 	pass
 
-os.system("rm -rf choicdddd.py")
+os.system("rm -rf .choicdddd.py")
 os.system("rm -rf .dddd92.py")
 os.system("clear")
 
